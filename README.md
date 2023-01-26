@@ -14,12 +14,6 @@ dotnet new console
 ## Running the app
 
 ```zsh
-# running the main app
-dotnet run
-
-# running the scratchpad
-dotnet run Scratchpad.cs
-
 # running the tests
 dotnet run ProgramTests.cs
 ```
