@@ -24,6 +24,16 @@ dotnet run ProgramTests.cs
 dotnet --version > .dotnet
 ```
 
+## Containerized builds
+
+```zsh
+# build the image
+docker build -t github.com/laiyewhon/math-eval:0.0.1-SNAPSHOT .
+
+# run the image in interactive mode to display console output
+docker run -ti github.com/laiyewhon/math-eval:0.0.1-SNAPSHOT
+```
+
 ## References
 
 1. [.gitignore](https://github.com/dotnet/core/blob/main/.gitignore)
